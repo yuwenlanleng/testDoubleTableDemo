@@ -174,7 +174,7 @@ public class InitPanel extends javax.swing.JFrame {
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
         contentPane.removeAll();
         contentPane.add(nNavToolBar1, BorderLayout.NORTH);
-        if (testUploadAndDownloadPicturePanel == null) {
+        if (exportCarReportPane == null) {
             exportCarReportPane = new ExportPanel();
         }
         contentPane.add(exportCarReportPane, BorderLayout.CENTER);
@@ -186,7 +186,7 @@ public class InitPanel extends javax.swing.JFrame {
     private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
         contentPane.removeAll();
         contentPane.add(nNavToolBar1, BorderLayout.NORTH);
-        if (testUploadAndDownloadPicturePanel == null) {
+        if (testListener == null) {
             testListener = new TestListenerPanel();
         }
         contentPane.add(testListener, BorderLayout.CENTER);
